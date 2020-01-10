@@ -1,0 +1,51 @@
+div#benefits {
+    max-width: 620px;
+}
+.portlet-content {
+    margin-top: 25px;
+}
+.dados-type {
+    display: flex;
+    flex-direction: column;
+}
+.portlet-content .mdl-textfield{
+    margin-bottom: 30px;
+}
+.portlet-content input{
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom: 1px solid rgba(0,0,0,.12) !important;
+    box-shadow: none !important;
+    background-color:transparent !important;
+    transition: none !important;
+}
+.loading{
+    opacity: 0.3;
+    pointer-events: none;
+}
+.escondido{
+    display: none;
+}
+.success{
+    color: green;
+    font-weight: 600;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 0.5s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 0.5s
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    0% {background-color: transparent; opacity: 0.3;}
+    50% {background-color: #5dc35d; opacity: 0.3;}
+    100% {background-color: transparent; opacity: 1;}
+}
+  
+  /* Standard syntax */
+  @keyframes example {
+    0% {background-color: transparent; opacity: 0.3;}
+    50% {background-color: #5dc35d; opacity: 0.3;}
+    100% {background-color: transparent; opacity: 1;}
+}
